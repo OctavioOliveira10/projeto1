@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho{
+    background-color: rgb(103, 189, 189);
+    align-items: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    height: 250px;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: white;
+}
+
+button{
+    background-color: white;
+    text-align: center;
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.creatives{
+    display: flex;
+    height: 100px;
+    background-color: rgb(103, 189, 189);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 270px;
+}
+
+.container-2{
+    height: 250px;
+    display: flex;
+}
+
+.quadro-1{
+    background-color: white;
+    height: 250px;
+    width: 50%;
+}
+
+.quadro-2{
+    background-color: yellow;
+    height: 250px;
+    width: 50%;
+}
+
+.container-3{
+    height: 250px;
+    display: flex;
+}
+
+.quadro-3{
+    background-color: rgb(157, 224, 163);
+    height: 230px;
+    width: 50%;
+}
+
+.quadro-4{
+    background-color: rgb(103, 189, 189);
+    height: 230px;
+    width: 50%;
+}
+
+
+
