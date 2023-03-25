@@ -50,6 +50,12 @@ button{
     justify-content: center;
     align-items: center;
     padding-bottom: 270px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.creatives img{
+    height: 1024px;
 }
 
 .container-2{
@@ -57,16 +63,30 @@ button{
     display: flex;
 }
 
+.bla{
+    text-align: left;
+    font-weight: bold;
+    font-size: 32px;
+}
+
 .quadro-1{
     background-color: white;
     height: 250px;
     width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
 }
 
 .quadro-2{
     background-color: yellow;
     height: 250px;
     width: 50%;
+    
 }
 
 .container-3{
@@ -84,6 +104,93 @@ button{
     background-color: rgb(103, 189, 189);
     height: 230px;
     width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    align-items: center;
+}
+
+.client-testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    color: gray;
+}
+
+.principal-client{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.principal-4-cores{
+    display: flex;
+}
+
+.cor-1{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(103, 189, 189);
+}
+
+.cor-2{
+    width: 25%;
+    height: 400px;
+    background-color: yellow;
+}
+
+.cor-3{
+    width: 25%;
+    height: 400px;
+    background-color: rgb(103, 189, 189);
+}
+
+.cor-4{
+    width: 25%;
+    height: 400px;
+    background-color: pink;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px;
+    color: black;
+}
+
+.rodape{
+    text-align: center;
+    gap: 20px;
+    background-color: rgb(157, 224, 163);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.titulo-rodape{
+    font-size: 14px;
+}
+
+.menu-rodape{
+
 }
 
 
